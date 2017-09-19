@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private zoomLevel = 0.5;
-  private maxZoom = 1;
-  private image: HTMLImageElement = new Image();
+  zoomLevel = 0.5;
+  maxZoom = 1;
+  image: HTMLImageElement = new Image();
   private timeoutHandler: any;
 
   constructor() {
